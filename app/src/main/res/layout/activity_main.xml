@@ -46,6 +46,7 @@
         android:contentDescription="@string/my_phone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_name"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_phone"
         app:srcCompat="@drawable/myphone" />
 
     <Button
@@ -75,6 +76,7 @@
         app:layout_constraintEnd_toEndOf="@+id/img_phone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_phone"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_mail"
         app:srcCompat="@drawable/mymail" />
 
     <Button
@@ -82,14 +84,13 @@
         android:layout_width="286dp"
         android:layout_height="52dp"
         android:layout_marginTop="16dp"
-        android:background="#262D60"
         android:clickable="true"
         android:focusable="true"
         android:fontFamily="@font/roboto"
         android:text="@string/my_email_address"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textSize="@dimen/normal_text"
         app:layout_constraintStart_toStartOf="@+id/btn_phone"
         app:layout_constraintTop_toBottomOf="@+id/btn_phone" />
@@ -102,6 +103,7 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_email"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_location"
         app:srcCompat="@drawable/mylocation"
         android:contentDescription="@string/my_location" />
 
