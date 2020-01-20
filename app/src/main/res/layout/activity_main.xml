@@ -56,8 +56,6 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/btn_rounded"
-        android:clickable="true"
-        android:focusable="true"
         android:fontFamily="@font/roboto"
         android:text="@string/my_number"
         android:textAlignment="center"
@@ -76,16 +74,14 @@
         app:layout_constraintEnd_toEndOf="@+id/img_phone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_phone"
-        app:layout_constraintBottom_toBottomOf="@+id/btn_mail"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_email"
         app:srcCompat="@drawable/mymail" />
 
     <Button
-        android:id="@+id/btn_mail"
+        android:id="@+id/btn_email"
         android:layout_width="286dp"
         android:layout_height="52dp"
         android:layout_marginTop="16dp"
-        android:clickable="true"
-        android:focusable="true"
         android:fontFamily="@font/roboto"
         android:text="@string/my_email_address"
         android:textAlignment="center"
@@ -114,16 +110,14 @@
         android:layout_height="52dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/btn_rounded"
-        android:clickable="true"
-        android:focusable="true"
         android:fontFamily="@font/roboto"
         android:text="@string/my_home_address"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#ffffff"
         android:textSize="@dimen/normal_text"
-        app:layout_constraintStart_toStartOf="@+id/btn_mail"
-        app:layout_constraintTop_toBottomOf="@+id/btn_mail" />
+        app:layout_constraintStart_toStartOf="@+id/btn_email"
+        app:layout_constraintTop_toBottomOf="@+id/btn_email" />
 
     <TextView
         android:id="@+id/text_bio"
@@ -139,13 +133,14 @@
 
     <ScrollView
         android:id="@+id/scroll_bio"
-        android:layout_width="290dp"
-        android:layout_height="176dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="32dp"
+        android:layout_width="337dp"
+        android:layout_height="251dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:scrollbarStyle="insideInset"
         app:layout_constraintEnd_toEndOf="@+id/btn_location"
-        app:layout_constraintStart_toStartOf="@+id/btn_location"
+        app:layout_constraintStart_toStartOf="@+id/img_location"
         app:layout_constraintTop_toBottomOf="@+id/text_bio">
 
         <TextView

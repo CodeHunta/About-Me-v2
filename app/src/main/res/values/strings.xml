@@ -24,4 +24,5 @@
     <string name="bio">Bio:</string>
     <string name="my_location">My Location</string>
     <string name="happy_face">Happy Face</string>
+    <string name="click_my_bio">CLICK MY BIO</string>
 </resources>
