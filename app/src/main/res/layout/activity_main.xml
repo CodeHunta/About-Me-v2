@@ -8,18 +8,20 @@
     tools:context=".MainActivity">
 
 
-    <ImageView
+    <com.mikhaellopez.circularimageview.CircularImageView
         android:id="@+id/img_my_face"
-        android:layout_width="132dp"
-        android:layout_height="125dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:contentDescription="@string/happy_face"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/myface"
-        android:contentDescription="@string/happy_face" />
+        app:srcCompat="@drawable/manstylo"
+        app:civ_border_color="#262d60"
+        app:civ_border_width="1dp" />
 
     <TextView
         android:id="@+id/text_name"
@@ -133,8 +135,8 @@
 
     <ScrollView
         android:id="@+id/scroll_bio"
-        android:layout_width="337dp"
-        android:layout_height="251dp"
+        android:layout_width="338dp"
+        android:layout_height="218dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"

@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">My Bio</string>
-    <string name="my_profile_picture">My Profile Picture</string>
     <string name="my_name">Stan Lee</string>
     <string name="my_number">+234 (0) 123 456 7890</string>
     <string name="my_phone">My Phone</string>
@@ -9,15 +8,15 @@
     <string name="my_home_address">3 Abike Close off Miyaki str., Oworonshoki, Lagos</string>
     <string name="my_brief_bio">Hello, I am Stanley Umezuruike aka CodeHunta.
         \n\nI am an aspiring Android Developer and a Data Scientist! Learning how to speak in Kotlin, Python and basic web.
-        \n\nClick on the buttons above to get in contact with me. Thank you.
+        \n\nClick on the buttons above to contact with me. Thank you.
         \n\nHippie!!!
 
         \n\na = 4
         \nb = 3
-        \nc = (a**2 + b**2) #exponential operator
-        \nx = math.sqrt(c) #square root operator
+        \nf = (a**2 + b**2) #exponential operator
+        \nx = math.sqrt(f) #square root operator
         \ny = x % 2  #modulus operator
-        \nprint("The square root of ", c, " is ", x)
+        \nprint("The square root of ", f, " is ", x)
         \nprint(y)
         \n\nmsg = "hello world!"
         \nprint(msg)</string>

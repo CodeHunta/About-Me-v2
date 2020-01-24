@@ -8,6 +8,7 @@
     tools:context=".SplashScreen">
 
     <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/img_meme"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_alignParentStart="true"
@@ -15,26 +16,26 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="165dp"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="162dp"
         android:layout_marginEnd="46dp"
-        android:layout_marginBottom="371dp"
+        android:layout_marginBottom="369dp"
         android:src="@drawable/codehunta_dp"
         app:civ_border_color="#262d60"
         app:civ_border_width="1dp"
         app:civ_shadow="true"
-        app:civ_shadow_radius="10"
-        app:civ_shadow_color="#262d60" />
+        app:civ_shadow_color="#262d60"
+        app:civ_shadow_radius="10" />
 
     <Button
         android:id="@+id/btn_splash"
         android:layout_width="162sp"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/img_meme"
+        android:layout_alignEnd="@+id/img_meme"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="180dp"
-        android:layout_marginEnd="64dp"
-        android:layout_marginBottom="322dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="308dp"
         android:background="@drawable/btn_rounded"
         android:fontFamily="@font/roboto"
         android:text="@string/click_my_bio"
